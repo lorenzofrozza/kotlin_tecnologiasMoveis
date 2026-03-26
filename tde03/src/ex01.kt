@@ -1,7 +1,6 @@
 fun main() {
     val generator = CharGenerator('A', 'Z')
-    val result = generator.randomChar()
-    println(result)
+    println(generator.randomChar())
 }
 
 class CharGenerator(
